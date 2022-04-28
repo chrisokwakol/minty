@@ -1,0 +1,10 @@
+.HamburgerMenu {
+    display: none;
+    color: var(--color-primary);
+}
+
+@media screen and (max-width: 768px) {
+    .HamburgerMenu {
+        display: block;
+    }
+} 
