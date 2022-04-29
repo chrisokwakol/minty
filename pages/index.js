@@ -368,7 +368,7 @@ export default function Home() {
 							project
 						</p>
 						<div className={headerStyles.headerBtns}>
-							<a href="https://mintysolutions.vercel.app/services">
+							<a href="https://mintyy.vercel.app/services">
 								<button className={headerStyles.learnMoreBtn}>
 									Learn More
 								</button>
@@ -634,7 +634,7 @@ export default function Home() {
 								<p>1 Full Stack Developer</p>
 							</div>
 							<div className={styles.pricingCardsBtnContainer}>
-								<a href="https://mintysolutions.vercel.app/services">
+								<a href="https://mintyy.vercel.app/services">
 									<button className={styles.pricingCardsBtn}>LEARN MORE</button>
 								</a>
 							</div>
@@ -747,7 +747,7 @@ export default function Home() {
 								<p>1 Full Stack Developer</p>
 							</div>
 							<div className={styles.pricingCardsBtnContainer}>
-								<a href="https://mintysolutions.vercel.app/services">
+								<a href="https://mintyy.vercel.app/services">
 									<button className={styles.pricingCardsBtn}>LEARN MORE</button>
 								</a>
 							</div>
@@ -861,7 +861,7 @@ export default function Home() {
 								<p>1 Full Stack Developer</p>
 							</div>
 							<div className={styles.pricingCardsBtnContainer}>
-								<a href="https://mintysolutions.vercel.app/services">
+								<a href="https://mintyy.vercel.app/services">
 									<button className={styles.pricingCardsBtn}>LEARN MORE</button>
 								</a>
 							</div>
@@ -877,7 +877,7 @@ export default function Home() {
 							Work With a Dedicated Agency
 						</p>
 						<a
-							href="https://mintysolutions.vercel.app/casestudies"
+							href="https://mintyy.vercel.app/casestudies"
 							className={styles.whyMintyCTA}>
 							See a Comparison between Minty and Other Firms{" "}
 							<FaRegCaretSquareRight

@@ -124,7 +124,7 @@ function services() {
 					<p>Our Results Speak for Themselves.</p>
 					<div>
 						<div>
-							<a href="https://mintysolutions.vercel.app/services">
+							<a href="https://mintyy.vercel.app/services">
 								Learn More
 							</a>
 							<FaRegCaretSquareRight
@@ -133,7 +133,7 @@ function services() {
 							/>{" "}
 						</div>
 						<div>
-							<a href="https://mintysolutions.vercel.app/contact">Contact Us</a>
+							<a href="https://mintyy.vercel.app/contact">Contact Us</a>
 							<FaRegCaretSquareRight
 								icon={faCaretSquareRight}
 								className={styles.whyMintyCTAIcon}
@@ -156,7 +156,7 @@ function services() {
 						We Nail It Every Time
 					</h1>
 					<div>
-						<a href="https://mintysolutions.vercel.app/services">Learn more</a>
+						<a href="https://mintyy.vercel.app/services">Learn more</a>
 						<FaRegCaretSquareRight
 							icon={faCaretSquareRight}
 							className={styles.whyMintyCTAIcon}
