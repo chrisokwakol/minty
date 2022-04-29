@@ -69,210 +69,204 @@ const Header = (props) => {
 	return (
 		<header className={styles.header}>
 			{(darkTheme && (
-						<Particles
-							id={styles["tsparticles"]}
-							init={particlesInit}
-							loaded={particlesLoaded}
-							options={{
-								background: {
-									color: {
-										value: "#161616",
-									},
+				<Particles
+					id={styles["tsparticles"]}
+					init={particlesInit}
+					loaded={particlesLoaded}
+					options={{
+						background: {
+							color: {
+								value: "#161616",
+							},
+						},
+						fpsLimit: 120,
+						interactivity: {
+							events: {
+								onClick: {
+									enable: true,
+									mode: "push",
 								},
-								fpsLimit: 120,
-								interactivity: {
-									events: {
-										onClick: {
-											enable: true,
-											mode: "push",
-										},
-										onHover: {
-											enable: true,
-											mode: "grab",
-										},
-										resize: true,
-									},
-									modes: {
-										push: {
-											quantity: 4,
-										},
-										repulse: {
-											distance: 200,
-											duration: 0.4,
-										},
-									},
+								onHover: {
+									enable: true,
+									mode: "grab",
 								},
-								particles: {
-									color: {
-										value: "#fff",
-									},
-									links: {
-										color: "#fff",
-										distance: 150,
-										enable: true,
-										opacity: 0.5,
-										width: 1,
-									},
-									collisions: {
-										enable: true,
-									},
-									move: {
-										direction: "none",
-										enable: true,
-										outModes: {
-											default: "bounce",
-										},
-										random: false,
-										speed: 1,
-										straight: false,
-									},
-									number: {
-										density: {
-											enable: true,
-											area: 800,
-										},
-										value: 80,
-									},
-									opacity: {
-										value: 0.5,
-									},
-									shape: {
-										type: "circle",
-									},
-									size: {
-										value: { min: 1, max: 5 },
-									},
+								resize: true,
+							},
+							modes: {
+								push: {
+									quantity: 4,
 								},
-								detectRetina: true,
-								fullScreen: {
-									enable: false,
-									zIndex: 0,
+								repulse: {
+									distance: 200,
+									duration: 0.4,
 								},
-							}}
-						/>
+							},
+						},
+						particles: {
+							color: {
+								value: "#fff",
+							},
+							links: {
+								color: "#fff",
+								distance: 150,
+								enable: true,
+								opacity: 0.5,
+								width: 1,
+							},
+							collisions: {
+								enable: true,
+							},
+							move: {
+								direction: "none",
+								enable: true,
+								outModes: {
+									default: "bounce",
+								},
+								random: false,
+								speed: 1,
+								straight: false,
+							},
+							number: {
+								density: {
+									enable: true,
+									area: 800,
+								},
+								value: 80,
+							},
+							opacity: {
+								value: 0.5,
+							},
+							shape: {
+								type: "circle",
+							},
+							size: {
+								value: { min: 1, max: 5 },
+							},
+						},
+						detectRetina: true,
+						fullScreen: {
+							enable: false,
+							zIndex: 0,
+						},
+					}}
+				/>
+			)) || (
+				<Particles
+					id={styles["tsparticles"]}
+					init={particlesInit}
+					loaded={particlesLoaded}
+					options={{
+						background: {
+							color: {
+								value: "#EEF6FE",
+							},
+						},
+						fpsLimit: 120,
+						interactivity: {
+							events: {
+								onClick: {
+									enable: true,
+									mode: "push",
+								},
+								onHover: {
+									enable: true,
+									mode: "grab",
+								},
+								resize: true,
+							},
+							modes: {
+								push: {
+									quantity: 4,
+								},
+								repulse: {
+									distance: 200,
+									duration: 0.4,
+								},
+							},
+						},
+						particles: {
+							color: {
+								value: "#A41623",
+							},
+							links: {
+								color: "#918450",
+								distance: 150,
+								enable: true,
+								opacity: 0.5,
+								width: 1,
+							},
+							collisions: {
+								enable: true,
+							},
+							move: {
+								direction: "none",
+								enable: true,
+								outModes: {
+									default: "bounce",
+								},
+								random: false,
+								speed: 1,
+								straight: false,
+							},
+							number: {
+								density: {
+									enable: true,
+									area: 800,
+								},
+								value: 80,
+							},
+							opacity: {
+								value: 0.5,
+							},
+							shape: {
+								type: "circle",
+							},
+							size: {
+								value: { min: 1, max: 5 },
+							},
+						},
+						detectRetina: true,
+						fullScreen: {
+							enable: false,
+							zIndex: 0,
+						},
+					}}
+				/>
+			)}
+
+			<nav className={styles.nav}>
+				<div onClick={burgerToggle}>
+					<HamburgerMenu />
+				</div>
+
+				<ul className={navLinksClasses.join(" ")}>
+					{/* Dark Mode Switch */}
+					{(darkTheme && (
+						<BsFillSunFill style={{ color: "yellow", fontSize: "1.5rem" }} />
 					)) || (
-						<Particles
-							id={styles["tsparticles"]}
-							init={particlesInit}
-							loaded={particlesLoaded}
-							options={{
-								background: {
-									color: {
-										value: "#EEF6FE",
-									},
-								},
-								fpsLimit: 120,
-								interactivity: {
-									events: {
-										onClick: {
-											enable: true,
-											mode: "push",
-										},
-										onHover: {
-											enable: true,
-											mode: "grab",
-										},
-										resize: true,
-									},
-									modes: {
-										push: {
-											quantity: 4,
-										},
-										repulse: {
-											distance: 200,
-											duration: 0.4,
-										},
-									},
-								},
-								particles: {
-									color: {
-										value: "#DC143C",
-									},
-									links: {
-										color: "#000",
-										distance: 150,
-										enable: true,
-										opacity: 0.5,
-										width: 1,
-									},
-									collisions: {
-										enable: true,
-									},
-									move: {
-										direction: "none",
-										enable: true,
-										outModes: {
-											default: "bounce",
-										},
-										random: false,
-										speed: 1,
-										straight: false,
-									},
-									number: {
-										density: {
-											enable: true,
-											area: 800,
-										},
-										value: 80,
-									},
-									opacity: {
-										value: 0.5,
-									},
-									shape: {
-										type: "circle",
-									},
-									size: {
-										value: { min: 1, max: 5 },
-									},
-								},
-								detectRetina: true,
-								fullScreen: {
-									enable: false,
-									zIndex: 0,
-								},
-							}}
-						/>
+						<BsFillSunFill style={{ color: "black", fontSize: "1.5rem" }} />
+					)}
+					<li>
+						{darkTheme !== undefined && (
+							<form action="#">
+								<label className="switch">
+									<input
+										type="checkbox"
+										checked={darkTheme}
+										onChange={handleToggle}
+									/>
+									<span className="slider"></span>
+								</label>
+							</form>
+						)}
+					</li>
+					{(darkTheme && (
+						<BsFillMoonFill style={{ color: "yellow", fontSize: "1.5rem" }} />
+					)) || (
+						<BsFillMoonFill style={{ color: "black", fontSize: "1.5rem" }} />
 					)}
 
-					<nav className={styles.nav}>
-						<div onClick={burgerToggle}>
-							<HamburgerMenu />
-						</div>
-
-						<ul className={navLinksClasses.join(" ")}>
-							{/* Dark Mode Switch */}
-							{(darkTheme && (
-								<BsFillSunFill
-									style={{ color: "yellow", fontSize: "1.5rem" }}
-								/>
-							)) || (
-								<BsFillSunFill style={{ color: "black", fontSize: "1.5rem" }} />
-							)}
-							<li>
-								{darkTheme !== undefined && (
-									<form action="#">
-										<label className="switch">
-											<input
-												type="checkbox"
-												checked={darkTheme}
-												onChange={handleToggle}
-											/>
-											<span className="slider"></span>
-										</label>
-									</form>
-								)}
-							</li>
-							{(darkTheme && (
-								<BsFillMoonFill
-									style={{ color: "yellow", fontSize: "1.5rem" }}
-								/>
-							)) || (
-								<BsFillMoonFill
-									style={{ color: "black", fontSize: "1.5rem" }}
-								/>
-							)}
-
-							{/* End Dark Mode Switch */}
+					{/* End Dark Mode Switch */}
 					<li>
 						<a href="https://mintysolutions.vercel.app/">Home</a>
 					</li>
@@ -316,14 +310,18 @@ const Header = (props) => {
 				<h1>{props.title}</h1>
 				{/* <h1>We Enhance Social Media Management and Marketing</h1> */}
 				<p>
-					Welcome to Minty Solutions, the all-in-one digital marketing service
-					personalised to your project
+					Welcome to{" "}
+					<span style={{ color: "#0065F2", fontWeight: "bold" }}>
+						Minty Solutions
+					</span>
+					, the all-in-one digital marketing service personalised to your
+					project
 				</p>
 				<div className={styles.headerBtns}>
 					<a href="https://mintysolutions.vercel.app/services">
 						<button className={styles.learnMoreBtn}>Learn More</button>
 					</a>
-					<button className={styles.scheduleACallBtn}>Schedule a Call!</button>
+					<button className={styles.scheduleACallBtn}>Schedule a Call</button>
 				</div>
 			</div>
 			{/* </div> */}

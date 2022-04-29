@@ -212,10 +212,10 @@ export default function Home() {
 								},
 								particles: {
 									color: {
-										value: "#000",
+										value: "#A41623",
 									},
 									links: {
-										color: "#000",
+										color: "#918450",
 										distance: 150,
 										enable: true,
 										opacity: 0.5,
@@ -360,7 +360,7 @@ export default function Home() {
 						</h1> */}
 						<p>
 							Welcome to{" "}
-							<span style={{ color: "#0065F2" }}>Minty Solutions</span>, the
+							<span style={{ color: "#0065F2", fontWeight: "bold" }}>Minty Solutions</span>, the
 							all-in-one digital marketing service personalised to your project
 						</p>
 						<div className={headerStyles.headerBtns}>
@@ -370,7 +370,7 @@ export default function Home() {
 								</button>
 							</a>
 							<button className={headerStyles.scheduleACallBtn}>
-								Schedule a Call!
+								Schedule a Call
 							</button>
 						</div>
 					</div>

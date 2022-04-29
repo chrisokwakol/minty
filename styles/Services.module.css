@@ -29,11 +29,11 @@
 	flex-wrap: wrap-reverse;
 	justify-content: center;
 	align-items: center;
-	padding-top: 15px;
-    /* padding-bottom: 60px; */
+	/* padding-top: 15px; */
+	/* padding-bottom: 60px; */
 	margin-top: -50px;
 	/* background: #FAF9F6; */
-    margin: 20px auto;
+	/* margin: 20px auto; */
 }
 
 .servicesSectionOne .content {
@@ -46,8 +46,8 @@
 
 .servicesSectionTwo .content a {
 	font-size: 0.875rem;
-    text-decoration: underline;
-    text-underline-offset: 2px;
+	text-decoration: underline;
+	text-underline-offset: 2px;
 	color: grey;
 }
 
@@ -58,9 +58,9 @@
 .servicesSectionThree {
 	display: flex;
 	flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-	margin: 85px;
+	justify-content: center;
+	align-items: center;
+	/* margin: 85px; */
 }
 
 .servicesSectionThreeTitle .content a {
@@ -91,9 +91,10 @@
 
 .servicesPageCTAOne {
 	text-align: center;
-    /* padding-top: 56px;
+	padding: 40px 0;
+	/* padding-top: 56px;
     padding-bottom: 76px; */
-    /* background: #FAF9F6; */
+	/* background: #FAF9F6; */
 }
 
 .servicesPageCTAOne h1 {
@@ -111,19 +112,19 @@
 
 .servicesPageCTAOne div {
 	font-size: 1.125rem;
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 	align-items: center;
 	margin-left: 5px;
-    margin-right: 5px;
+	margin-right: 5px;
 }
 
 .servicesPageCTAOne div > a {
 	padding-left: 5px;
-    padding-right: 5px;
+	padding-right: 5px;
 	text-decoration: underline;
-    text-underline-offset: 2px;
-    font-size: 1rem;
+	text-underline-offset: 2px;
+	font-size: 1rem;
 	color: grey;
 }
 
@@ -139,34 +140,34 @@
 
 .servicesPageCTATwo div {
 	display: flex;
-    justify-content: center;
-    align-items: center;
+	justify-content: center;
+	align-items: center;
 }
 
 .servicesPageCTATwo a {
 	font-size: 1rem;
-    text-decoration: underline;
-    text-underline-offset: 2px;
+	text-decoration: underline;
+	text-underline-offset: 2px;
 	padding: 10px;
 	color: grey;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
 	.servicesSectionTwo {
-		margin-top: 22px;
+		margin-top: 0px;
 		padding-bottom: 88px;
 	}
 
 	.servicesSectionThree {
-		margin-top: 70px;
+		/* margin-top: 70px; */
 	}
 
 	.servicesPageCTATwo {
 		margin-bottom: 70px;
-	}	
+	}
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
 	.servicesSectionThree {
 		margin-bottom: 0;
 		margin-top: 20px;
@@ -196,8 +197,8 @@
 		font-size: 0.875rem;
 	}
 }
- 
-@media  screen and (max-width: 425px) {
+
+@media screen and (max-width: 425px) {
 	.servicesSectionOne {
 		padding: 20px;
 	}
@@ -208,8 +209,8 @@
 	}
 
 	.servicesSectionTwo {
-		margin-top: 30px;
-		margin-bottom: 60px;
+		/* margin-top: 30px; */
+		/* margin-bottom: 60px; */
 		padding: 20px;
 	}
 
@@ -221,7 +222,7 @@
 	}
 
 	.servicesSectionThree {
-		margin: 50px;
+		margin: 0 50px;
 	}
 
 	.aboutServicesSectionThree {
@@ -245,9 +246,14 @@
 	.servicesSectionThree p {
 		font-size: 0.875rem;
 	}
-	
+
 	.servicesSectionThree a {
 		font-size: 0.875rem;
+	}
+
+	.servicesPageCTAOne {
+		padding-top: 17px;
+		padding-bottom: 0;
 	}
 
 	.servicesPageCTAOne .topTitle {
@@ -273,14 +279,14 @@
 	.aboutServicesSectionThree :nth-child(1) {
 		max-width: 340px;
 	}
-	
+
 	.aboutServicesSectionThree :nth-child(2) {
 		max-width: 340px;
 		margin-top: 16px;
 	}
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width: 375px) {
 	.servicesSectionOne {
 		padding: 10px;
 	}
