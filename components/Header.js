@@ -241,30 +241,40 @@ const Header = (props) => {
 
 				<ul className={navLinksClasses.join(" ")}>
 					{/* Dark Mode Switch */}
-					{(darkTheme && (
-						<BsFillSunFill style={{ color: "yellow", fontSize: "1.5rem" }} />
-					)) || (
-						<BsFillSunFill style={{ color: "black", fontSize: "1.5rem" }} />
-					)}
-					<li>
-						{darkTheme !== undefined && (
-							<form action="#">
-								<label className="switch">
-									<input
-										type="checkbox"
-										checked={darkTheme}
-										onChange={handleToggle}
+					<div id={styles["darkModeSwitch"]}>
+								{(darkTheme && (
+									<BsFillSunFill
+										style={{ color: "yellow", fontSize: "1.5rem" }}
 									/>
-									<span className="slider"></span>
-								</label>
-							</form>
-						)}
-					</li>
-					{(darkTheme && (
-						<BsFillMoonFill style={{ color: "yellow", fontSize: "1.5rem" }} />
-					)) || (
-						<BsFillMoonFill style={{ color: "black", fontSize: "1.5rem" }} />
-					)}
+								)) || (
+									<BsFillSunFill
+										style={{ color: "black", fontSize: "1.5rem" }}
+									/>
+								)}
+								<li>
+									{darkTheme !== undefined && (
+										<form action="#">
+											<label className="switch">
+												<input
+													type="checkbox"
+													checked={darkTheme}
+													onChange={handleToggle}
+												/>
+												<span className="slider"></span>
+											</label>
+										</form>
+									)}
+								</li>
+								{(darkTheme && (
+									<BsFillMoonFill
+										style={{ color: "yellow", fontSize: "1.5rem" }}
+									/>
+								)) || (
+									<BsFillMoonFill
+										style={{ color: "black", fontSize: "1.5rem" }}
+									/>
+								)}{" "}
+							</div>
 
 					{/* End Dark Mode Switch */}
 					<li>

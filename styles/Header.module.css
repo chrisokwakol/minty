@@ -19,6 +19,12 @@
 	font-size: 4rem;
 }
 
+#darkModeSwitch {
+	display: flex;
+    align-items: center;
+}
+
+
 .code {
 	background: #fafafa;
 	border-radius: 5px;
