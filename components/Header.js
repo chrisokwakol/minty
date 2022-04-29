@@ -268,18 +268,18 @@ const Header = (props) => {
 
 					{/* End Dark Mode Switch */}
 					<li>
-						<a href="https://mintysolutions.vercel.app/">Home</a>
+						<a href="https://mintyy.vercel.app/">Home</a>
 					</li>
 					<li>
-						<a href="https://mintysolutions.vercel.app/services">Services</a>
+						<a href="https://mintyy.vercel.app/services">Services</a>
 					</li>
 					<li>
-						<a href="https://mintysolutions.vercel.app/casestudies">
+						<a href="https://mintyy.vercel.app/casestudies">
 							Case Studies
 						</a>
 					</li>
 					<li>
-						<a href="https://mintysolutions.vercel.app/contact">Contact</a>
+						<a href="https://mintyy.vercel.app/contact">Contact</a>
 					</li>
 				</ul>
 				{(darkTheme && (

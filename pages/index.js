@@ -300,20 +300,16 @@ export default function Home() {
 
 							{/* End Dark Mode Switch */}
 							<li>
-								<a href="https://mintysolutions.vercel.app/">Home</a>
+								<a href="https://mintyy.vercel.app/">Home</a>
 							</li>
 							<li>
-								<a href="https://mintysolutions.vercel.app/services">
-									Services
-								</a>
+								<a href="https://mintyy.vercel.app/services">Services</a>
 							</li>
 							<li>
-								<a href="https://mintysolutions.vercel.app/casestudies">
-									Case Studies
-								</a>
+								<a href="https://mintyy.vercel.app/casestudies">Case Studies</a>
 							</li>
 							<li>
-								<a href="https://mintysolutions.vercel.app/contact">Contact</a>
+								<a href="https://mintyy.vercel.app/contact">Contact</a>
 							</li>
 						</ul>
 						{/* <div className={styles.logo}> */}
@@ -360,8 +356,11 @@ export default function Home() {
 						</h1> */}
 						<p>
 							Welcome to{" "}
-							<span style={{ color: "#0065F2", fontWeight: "bold" }}>Minty Solutions</span>, the
-							all-in-one digital marketing service personalised to your project
+							<span style={{ color: "#0065F2", fontWeight: "bold" }}>
+								Minty Solutions
+							</span>
+							, the all-in-one digital marketing service personalised to your
+							project
 						</p>
 						<div className={headerStyles.headerBtns}>
 							<a href="https://mintysolutions.vercel.app/services">
