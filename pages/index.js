@@ -267,37 +267,40 @@ export default function Home() {
 
 						<ul className={navLinksClasses.join(" ")}>
 							{/* Dark Mode Switch */}
-							{(darkTheme && (
-								<BsFillSunFill
-									style={{ color: "yellow", fontSize: "1.5rem" }}
-								/>
-							)) || (
-								<BsFillSunFill style={{ color: "black", fontSize: "1.5rem" }} />
-							)}
-							<li>
-								{darkTheme !== undefined && (
-									<form action="#">
-										<label className="switch">
-											<input
-												type="checkbox"
-												checked={darkTheme}
-												onChange={handleToggle}
-											/>
-											<span className="slider"></span>
-										</label>
-									</form>
+							<div id={styles["darkModeSwitch"]}>
+								{(darkTheme && (
+									<BsFillSunFill
+										style={{ color: "yellow", fontSize: "1.5rem" }}
+									/>
+								)) || (
+									<BsFillSunFill
+										style={{ color: "black", fontSize: "1.5rem" }}
+									/>
 								)}
-							</li>
-							{(darkTheme && (
-								<BsFillMoonFill
-									style={{ color: "yellow", fontSize: "1.5rem" }}
-								/>
-							)) || (
-								<BsFillMoonFill
-									style={{ color: "black", fontSize: "1.5rem" }}
-								/>
-							)}
-
+								<li>
+									{darkTheme !== undefined && (
+										<form action="#">
+											<label className="switch">
+												<input
+													type="checkbox"
+													checked={darkTheme}
+													onChange={handleToggle}
+												/>
+												<span className="slider"></span>
+											</label>
+										</form>
+									)}
+								</li>
+								{(darkTheme && (
+									<BsFillMoonFill
+										style={{ color: "yellow", fontSize: "1.5rem" }}
+									/>
+								)) || (
+									<BsFillMoonFill
+										style={{ color: "black", fontSize: "1.5rem" }}
+									/>
+								)}{" "}
+							</div>
 							{/* End Dark Mode Switch */}
 							<li>
 								<a href="https://mintyy.vercel.app/">Home</a>
@@ -342,18 +345,20 @@ export default function Home() {
 					</nav>
 					{/* <div className={styles.heroContentContainer}> */}
 					<div className={headerStyles.heroContent}>
-						<h1>We Enhance Social Media Management and Marketing</h1>
-						{/* <h1>
-							We
-							<Typewriter
-								options={{
-									strings: ["Enhance", "Optimize", "Manage"],
-									autoStart: true,
-									loop: true,
-								}}
-							/>
-							Social Media Management and Marketing
-						</h1> */}
+						{/* <h1>We Enhance Social Media Management and Marketing</h1> */}
+						<div>
+							<h1>
+								We
+								<Typewriter
+									options={{
+										strings: ["Enhance", "Optimize", "Manage"],
+										autoStart: true,
+										loop: true,
+									}}
+								/>
+								Social Media Management and Marketing
+							</h1>
+						</div>
 						<p>
 							Welcome to{" "}
 							<span style={{ color: "#0065F2", fontWeight: "bold" }}>
