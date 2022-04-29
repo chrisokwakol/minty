@@ -218,6 +218,10 @@
 		padding-top: 40px;
 	}
 
+	.navLinks li a {
+		color: var(--color-nav);
+	}
+
 	/* .navLinks li {
 		opacity: 0;
 	} */
