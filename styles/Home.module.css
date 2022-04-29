@@ -478,10 +478,9 @@
 
 /* TABLET VIEW */
 @media screen and (max-width: 768px) {
-	/* .logo {
-		height: 40px;
-		width: 90px;
-	} */
+	#darkModeSwitch {
+		margin-right: 0;
+	}
 
 	.whyMinty {
 		display: flex;
