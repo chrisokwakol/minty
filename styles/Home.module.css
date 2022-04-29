@@ -709,11 +709,11 @@
 	}
 
 	.whyMinty .content :nth-child(4) {
-		padding: 0 40px;
+		/* padding: 0 40px; */
 	}
 
 	.whyMinty .content :nth-child(5) {
-		padding: 0 40px;
+		/* padding: 0 40px; */
 	}
 
 	.content :nth-child(4) {
@@ -760,7 +760,7 @@
 
 	.servicesTwo .content p {
 		font-size: 0.875rem;
-		/* padding: 0 40px; */
+		padding: 0 10px;
 		text-align: center;
 		margin-top: 5px;
 		max-width: fit-content;
