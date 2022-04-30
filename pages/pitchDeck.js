@@ -29,13 +29,10 @@ function pitchDeck() {
 
 			<main className={styles.main}>
 				{/* HEADER */}
-				<Header title="Minty Deck" />
 				<embed src="/MintyDeck.pdf" width="100%" height="2100px" />
 				{/* PRE FOOTER */}
-				<PreFooter />
 			</main>
 
-			<Footer />
 		</div>
 	);
 }
