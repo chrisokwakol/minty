@@ -86,7 +86,7 @@
 }
 
 .nav {
-	display: flex;
+	/* display: flex;
 	align-items: center;
 	justify-content: center;
 	width: 100%;
@@ -94,7 +94,14 @@
 	left: 50%;
     transform: translateX(-50%);
 	z-index: 1;
-	margin-top: 10px;
+	margin-top: 10px; */
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    transform: translateX(-5%);
 }
 
 #navBtn {

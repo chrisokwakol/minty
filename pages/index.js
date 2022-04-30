@@ -20,6 +20,8 @@ import { FcManager, FcSearch, FcPanorama } from "react-icons/fc";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import Typewriter from "typewriter-effect";
+import CountUp from "react-countup";
+import VisibilitySensor from "react-visibility-sensor";
 import HamburgerMenu from "../components/HamburgerMenu";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
@@ -383,22 +385,58 @@ export default function Home() {
 					<div className={styles.metrics}>
 						<div className={styles.metricsCard}>
 							<h2>INFLUENCER NETWORK</h2>
-							<p>60M+ Followers</p>
+							<p>
+								<CountUp end={60} redraw={true}>
+									{({ countUpRef, start }) => (
+										<VisibilitySensor onChange={start} delayedCall>
+											<span ref={countUpRef} />
+										</VisibilitySensor>
+									)}
+								</CountUp>
+								M+ Followers
+							</p>
 						</div>
 
 						<div className={styles.metricsCard}>
 							<h2>PRESS RELEASES</h2>
-							<p>800+</p>
+							<p>
+								<CountUp end={800} redraw={true}>
+									{({ countUpRef, start }) => (
+										<VisibilitySensor onChange={start} delayedCall>
+											<span ref={countUpRef} />
+										</VisibilitySensor>
+									)}
+								</CountUp>
+								+
+							</p>
 						</div>
 
 						<div className={styles.metricsCard}>
 							<h2>TEAM MEMBERS</h2>
-							<p>40+</p>
+							<p>
+								<CountUp end={40} redraw={true}>
+									{({ countUpRef, start }) => (
+										<VisibilitySensor onChange={start} delayedCall>
+											<span ref={countUpRef} />
+										</VisibilitySensor>
+									)}
+								</CountUp>
+								+
+							</p>
 						</div>
 
 						<div className={styles.metricsCard}>
 							<h2>MINTING REVENUE </h2>
-							<p>~$1M</p>
+							<p>
+								<CountUp start={100} end={1} redraw={true}>
+									{({ countUpRef, start }) => (
+										<VisibilitySensor onChange={start} delayedCall>
+											<span ref={countUpRef} />
+										</VisibilitySensor>
+									)}
+								</CountUp>
+								M+ Followers
+							</p>
 						</div>
 					</div>
 				</div>
@@ -441,7 +479,7 @@ export default function Home() {
 				{/* SERVICES */}
 				{/* Services section 1 */}
 				<div className={styles.servicesOne}>
-					<div className={styles.content}>
+					<div style={{ padding: "25px" }}>
 						<h1 className={styles.servicesOneTitle}>
 							Grow Your Project
 							<br /> with Minty Solutions

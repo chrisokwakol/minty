@@ -325,7 +325,7 @@
 
 .whyMinty .content {
 	max-width: 572px;
-	/* max-height: 356px; */
+	padding: 25px;
 }
 
 .whyMinty .content h1 {
@@ -451,6 +451,10 @@
 @media screen and (max-width: 2560px) {
 	.tagLine {
 		margin-top: 91px;
+	}
+
+	.services0ne {
+		
 	}
 }
 

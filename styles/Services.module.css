@@ -38,10 +38,12 @@
 
 .servicesSectionOne .content {
 	max-width: 488px;
+	padding: 25px;
 }
 
 .servicesSectionTwo .content {
 	max-width: 488px;
+	padding: 25px;
 }
 
 .servicesSectionTwo .content a {
@@ -74,15 +76,17 @@
 }
 
 .aboutServicesSectionThree :nth-child(1) {
-	max-width: 210px;
+	max-width: 197px;
+	/* padding: 10px; */
 }
 
 .aboutServicesSectionThree :nth-child(2) {
-	max-width: 233px;
+	max-width: 197px;
 }
 
 .servicesSectionThree .content {
 	max-width: 488px;
+	padding: 25px;
 }
 
 .aboutServicesSectionThreeIcon {
