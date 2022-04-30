@@ -433,7 +433,7 @@ export default function Home() {
 										</VisibilitySensor>
 									)}
 								</CountUp>
-								M+ Followers
+								+ Followers
 							</p>
 						</div>
 					</div>
