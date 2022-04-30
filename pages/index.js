@@ -426,7 +426,7 @@ export default function Home() {
 						<div className={styles.metricsCard}>
 							<h2>MINTING REVENUE </h2>
 							<p>
-								<CountUp start={100} end={1} redraw={true}>
+								<CountUp start={0} end={1000000}  separator="," redraw={true}>
 									{({ countUpRef, start }) => (
 										<VisibilitySensor onChange={start} delayedCall>
 											<span ref={countUpRef} />

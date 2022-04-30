@@ -237,7 +237,6 @@
 
 /* Cards */
 .pricingCards {
-	max-width: 1132px;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
