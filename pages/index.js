@@ -349,7 +349,7 @@ export default function Home() {
 						<div>
 							<h1>
 								We
-								<Typewriter
+								<Typewriter 
 									options={{
 										strings: ["Enhance", "Optimize", "Manage"],
 										autoStart: true,
