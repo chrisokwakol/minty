@@ -28,8 +28,6 @@ import Footer from "../components/Footer";
 import PreFooter from "../components/PreFooter";
 
 export default function Home() {
-	const particlesLight = "#EEF6FE";
-	const particlesDark = "#161616";
 	// Dark Theme
 	const [darkTheme, setDarkTheme] = useState(undefined);
 
