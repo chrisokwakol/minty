@@ -242,39 +242,31 @@ const Header = (props) => {
 				<ul className={navLinksClasses.join(" ")}>
 					{/* Dark Mode Switch */}
 					<div id={styles["darkModeSwitch"]}>
-								{(darkTheme && (
-									<BsFillSunFill
-										style={{ color: "yellow", fontSize: "1.5rem" }}
-									/>
-								)) || (
-									<BsFillSunFill
-										style={{ color: "black", fontSize: "1.5rem" }}
-									/>
-								)}
-								<li>
-									{darkTheme !== undefined && (
-										<form action="#">
-											<label className="switch">
-												<input
-													type="checkbox"
-													checked={darkTheme}
-													onChange={handleToggle}
-												/>
-												<span className="slider"></span>
-											</label>
-										</form>
-									)}
-								</li>
-								{(darkTheme && (
-									<BsFillMoonFill
-										style={{ color: "yellow", fontSize: "1.5rem" }}
-									/>
-								)) || (
-									<BsFillMoonFill
-										style={{ color: "black", fontSize: "1.5rem" }}
-									/>
-								)}{" "}
-							</div>
+						{(darkTheme && (
+							<BsFillSunFill style={{ color: "yellow", fontSize: "1.5rem" }} />
+						)) || (
+							<BsFillSunFill style={{ color: "black", fontSize: "1.5rem" }} />
+						)}
+						<li>
+							{darkTheme !== undefined && (
+								<form action="#">
+									<label className="switch">
+										<input
+											type="checkbox"
+											checked={darkTheme}
+											onChange={handleToggle}
+										/>
+										<span className="slider"></span>
+									</label>
+								</form>
+							)}
+						</li>
+						{(darkTheme && (
+							<BsFillMoonFill style={{ color: "yellow", fontSize: "1.5rem" }} />
+						)) || (
+							<BsFillMoonFill style={{ color: "black", fontSize: "1.5rem" }} />
+						)}{" "}
+					</div>
 
 					{/* End Dark Mode Switch */}
 					<li>
@@ -284,9 +276,7 @@ const Header = (props) => {
 						<a href="https://mintyy.vercel.app/services">Services</a>
 					</li>
 					<li>
-						<a href="https://mintyy.vercel.app/casestudies">
-							Case Studies
-						</a>
+						<a href="https://mintyy.vercel.app/casestudies">Case Studies</a>
 					</li>
 					<li>
 						<a href="https://mintyy.vercel.app/contact">Contact</a>
@@ -320,12 +310,8 @@ const Header = (props) => {
 				<h1>{props.title}</h1>
 				{/* <h1>We Enhance Social Media Management and Marketing</h1> */}
 				<p>
-					Welcome to{" "}
-					<span style={{ color: "#0065F2", fontWeight: "bold" }}>
-						Minty Solutions
-					</span>
-					, the all-in-one digital marketing service personalised to your
-					project
+					Welcome to Minty Solutions , the all-in-one digital marketing service
+					personalised to your project
 				</p>
 				<div className={styles.headerBtns}>
 					<a href="https://mintysolutions.vercel.app/services">

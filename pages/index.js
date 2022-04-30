@@ -360,12 +360,8 @@ export default function Home() {
 							</h1>
 						</div>
 						<p>
-							Welcome to{" "}
-							<span style={{ color: "#0065F2", fontWeight: "bold" }}>
-								Minty Solutions
-							</span>
-							, the all-in-one digital marketing service personalised to your
-							project
+							Welcome to Minty Solutions, the all-in-one digital marketing
+							service personalised to your project
 						</p>
 						<div className={headerStyles.headerBtns}>
 							<a href="https://mintyy.vercel.app/services">
