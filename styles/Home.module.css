@@ -447,6 +447,13 @@
 	margin-left: 0.5rem;
 }
 
+/* LARGE LAPTOP VIEW */
+@media screen and (max-width: 2560px) {
+	.tagLine {
+		margin-top: 91px;
+	}
+}
+
 /* SMALL LAPTOP VIEW */
 @media screen and (max-width: 1024px) {
 	.whyMinty {
