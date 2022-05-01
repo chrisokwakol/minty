@@ -18,12 +18,12 @@
 	display: flex;
     justify-content: center;
     align-items: center;
-    color: grey;
+    color: var(--color-primary);
 }
 
 .preFooterCTA {
 	font-size: 1rem;
-	color: grey;
+	color: var(--color-primary);
 	padding: 5px;
 	text-decoration: underline;
     text-underline-offset: 2px;

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
-import { FaTiktok } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 function Footer() {
 	return (
@@ -17,9 +17,7 @@ function Footer() {
 						<li>London, EC1V 2NX</li>
 						<li>United Kingdom</li>
 						<br />
-						<li>
-							For inquiries: adam@mintysolutions.com
-						</li>
+						<li>For inquiries: adam@mintysolutions.com</li>
 					</ul>
 				</div>
 				<div className={styles.footer2}>
@@ -43,13 +41,14 @@ function Footer() {
 				<div className={styles.footer3}>
 					<ul>
 						<li>
-							<FaInstagram /> <a>Instagram</a>
+							<a href="https://twitter.com" className={styles.mintySocials}>
+								<FaTwitter /> Twitter
+							</a>{" "}
 						</li>
 						<li>
-							<FaTwitter /> <a>Twitter</a>
-						</li>
-						<li>
-							<FaTiktok /> <a>TikTok</a>
+							<a href="https://linkedin.com" className={styles.mintySocials}>
+								<FaLinkedin /> Linkedin
+							</a>{" "}
 						</li>
 					</ul>
 				</div>
@@ -59,6 +58,6 @@ function Footer() {
 			</div>
 		</main>
 	);
-} 
+}
 
 export default Footer;

@@ -18,6 +18,8 @@
 .servicesSectionOne .content a {
 	font-size: 0.875rem;
 	color: grey;
+	text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
 .servicesSectionOne .content ul {

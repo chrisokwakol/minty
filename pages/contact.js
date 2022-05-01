@@ -64,7 +64,7 @@ function Contact() {
 					<InlineWidget
 						url="https://calendly.com/mintysolutions/15min"
 						pageSettings={{
-							backgroundColor: "000",
+							backgroundColor: "0d0d0d",
 							hideEventTypeDetails: false,
 							hideLandingPageDetails: false,
 							primaryColor: "1973f5",

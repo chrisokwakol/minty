@@ -391,6 +391,14 @@
 	opacity: 0.7;
 }
 
+.clientSocials {
+	color: var(--color-socialLinks);
+}
+
+.clientSocials:hover {
+	color: #2614c7;
+}
+
 /* PRE FOOTER */
 .preFooter {
 	background: #f2f8ff;

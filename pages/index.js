@@ -10,7 +10,8 @@ import {
 } from "@fortawesome/free-regular-svg-icons";
 import {
 	FaTwitter,
-	FaTiktok,
+	FaInstagram,
+	FaGlobeAmericas,
 	FaRegCaretSquareRight,
 	FaRegCheckCircle,
 	FaRegTimesCircle,
@@ -343,9 +344,7 @@ export default function Home() {
 							Schedule a Call
 						</button>
 					</nav>
-					{/* <div className={styles.heroContentContainer}> */}
 					<div className={headerStyles.heroContent}>
-						{/* <h1>We Enhance Social Media Management and Marketing</h1> */}
 						<h1>
 							<span>We&nbsp;</span>
 							<Typewriter
@@ -948,7 +947,21 @@ export default function Home() {
 									Founder | Vending Machines NFT
 								</p>
 								<div>
-									<FaTiktok /> <FaTwitter />
+									<a
+										href="https://instagram.com"
+										className={styles.clientSocials}>
+										<FaInstagram />
+									</a>{" "}
+									<a
+										href="https://twitter.com"
+										className={styles.clientSocials}>
+										<FaTwitter />
+									</a>{" "}
+									<a
+										href="https://mintysolutions.com"
+										className={styles.clientSocials}>
+										<FaGlobeAmericas />
+									</a>{" "}
 									<p className={styles.clientReview}>
 										We have been very happy with Minty Solutions since we
 										started together. Their social media marketing work is
@@ -972,7 +985,21 @@ export default function Home() {
 							<div>
 								<p className={styles.clientTitle}>Founder | Puzzle Prize NFT</p>
 								<div>
-									<FaTiktok /> <FaTwitter />
+									<a
+										href="https://instagram.com"
+										className={styles.clientSocials}>
+										<FaInstagram />
+									</a>{" "}
+									<a
+										href="https://twitter.com"
+										className={styles.clientSocials}>
+										<FaTwitter />
+									</a>{" "}
+									<a
+										href="https://mintysolutions.com"
+										className={styles.clientSocials}>
+										<FaGlobeAmericas />
+									</a>{" "}
 									<p className={styles.clientReview}>
 										Minty really helped us get our collabs going! They have an
 										expansive network of projects that allows them to bring
@@ -992,7 +1019,21 @@ export default function Home() {
 									Founder | Vending Machines NFT
 								</p>
 								<div>
-									<FaTiktok /> <FaTwitter />
+									<a
+										href="https://instagram.com"
+										className={styles.clientSocials}>
+										<FaInstagram />
+									</a>{" "}
+									<a
+										href="https://twitter.com"
+										className={styles.clientSocials}>
+										<FaTwitter />
+									</a>{" "}
+									<a
+										href="https://mintysolutions.com"
+										className={styles.clientSocials}>
+										<FaGlobeAmericas />
+									</a>{" "}
 									<p className={styles.clientReview}>
 										We have been very happy with Minty Solutions since we
 										started together. Their social media marketing work is

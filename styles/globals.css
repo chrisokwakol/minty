@@ -19,6 +19,7 @@
   /* --color-anchor: #000aff; */
   --color-nav: #fff;
   --color-priceCardBtn : #3B4B5B;
+  --color-SocialLinks: #000;
 }
 
 [data-theme='dark'] {
@@ -32,6 +33,7 @@
   /* --color-anchor: #00ff4c; */
   --color-nav: #fff;
   --color-priceCardBtn : #0165F0;
+  --color-SocialLinks: #fff;
 }
 
 body {

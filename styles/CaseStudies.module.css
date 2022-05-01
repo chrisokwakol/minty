@@ -1,6 +1,6 @@
 .title {
 	text-align: center;
-	margin-top: 70px;
+	padding: 50px;
 }
 
 .tableContainer {
@@ -10,13 +10,15 @@
 
 .caseStudiesTitle {
 	text-align: center;
+	margin-top: 40px;
+    padding: 50px;
 }
 
 .caseStudiesCards {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	margin: 70px auto;
+	padding: 30px;
 }
 
 .caseStudiesCardItem {

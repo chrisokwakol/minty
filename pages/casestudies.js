@@ -33,6 +33,111 @@ function CaseStudies() {
 			<main className={styles.main}>
 				{/* HEADER */}
 				<Header title="Case Studies" />
+				<div className={styles.caseStudiesTitle}>
+					<p>Our Projects</p>
+					<h1>A Few Case Studies</h1>
+				</div>
+
+				<div className={styles.caseStudiesCards}>
+					<div className={styles.caseStudiesCardItem}>
+						<div className={styles.caseStudiesCardItemOneTop}>
+							<GiVendingMachine />
+							<button>Sold Out</button>
+						</div>
+						<h4>Vending Machine <br/> NFT</h4>
+						<div className={styles.socialIcons}>
+							<FaTwitter className={styles.socialIcon} />{" "}
+							<FaInstagram className={styles.socialIcon} />{" "}
+							<FaGlobeAmericas className={styles.socialIcon} />{" "}
+						</div>
+						<p className={styles.achievements}>Achievements</p>
+						<div>
+							<p>
+								<FaRegCheckCircle /> 106.1% Growth in Tweet 
+								Impressions
+							</p>
+							<p>
+							<FaRegCheckCircle /> 31.2% Growth in Profile
+								Visits
+							</p>
+							<p>
+							<FaRegCheckCircle /> 47.3% Growth in
+								Mentions
+							</p>
+							<p>
+							<FaRegCheckCircle /> 25.6% Growth in
+								Followers
+							</p>
+						</div>
+					</div>
+
+					<div className={styles.caseStudiesCardItem}>
+						<div className={styles.caseStudiesCardItemTwoTop}>
+							<BsPuzzle />
+							<button>Minting Soon</button>
+						</div>
+						<h4>Puzzle Prize<br/> NFT</h4>
+						<div className={styles.socialIcons}>
+							<FaTwitter className={styles.socialIcon} />{" "}
+							<FaInstagram className={styles.socialIcon} />{" "}
+							<FaGlobeAmericas className={styles.socialIcon} />{" "}
+						</div>
+						<p className={styles.achievements}>Achievements</p>
+						<div>
+							<p>
+								<FaRegCheckCircle /> 106.1% Growth in Tweet
+								Impressions
+							</p>
+							<p>
+								<FaRegCheckCircle /> 31.2% Growth in Profile
+								Visits
+							</p>
+							<p>
+								<FaRegCheckCircle /> 47.3% Growth in
+								Mentions
+							</p>
+							<p>
+								<FaRegCheckCircle /> 25.6% Growth in
+								Followers
+							</p>
+						</div>
+					</div>
+
+					<div className={styles.caseStudiesCardItem}>
+						<div className={styles.caseStudiesCardItemThreeTop}>
+							<GoRocket />
+							<button>Minting Soon</button>
+						</div>
+						<h4>
+							Space Dudes <br />
+							NFT
+						</h4>
+						<div className={styles.socialIcons}>
+							<FaTwitter className={styles.socialIcon} />{" "}
+							<FaInstagram className={styles.socialIcon} />{" "}
+							<FaGlobeAmericas className={styles.socialIcon} />{" "}
+						</div>
+						<p className={styles.achievements}>Achievements</p>
+						<div>
+							<p>
+								<FaRegCheckCircle /> 25% Growth in Tweet
+								Impressions
+							</p>
+							<p>
+								<FaRegCheckCircle /> 16.8% Growth in Profile
+								Visits
+							</p>
+							<p>
+								<FaRegCheckCircle /> 11.8% Growth in
+								Mentions
+							</p>
+							<p>
+								<FaRegCheckCircle /> 21% Growth in Followers
+							</p>
+						</div>
+					</div>
+				</div>
+				
 				<div className={styles.title}>
 					<p>Comparison as of April 2022</p>
 					<h1>
@@ -391,110 +496,7 @@ function CaseStudies() {
 				</div>
 
 				{/* END TABLE */}
-				<div className={styles.caseStudiesTitle}>
-					<p>Our Projects</p>
-					<h1>A Few Case Studies</h1>
-				</div>
-
-				<div className={styles.caseStudiesCards}>
-					<div className={styles.caseStudiesCardItem}>
-						<div className={styles.caseStudiesCardItemOneTop}>
-							<GiVendingMachine />
-							<button>Sold Out</button>
-						</div>
-						<h4>Vending Machine <br/> NFT</h4>
-						<div className={styles.socialIcons}>
-							<FaTwitter className={styles.socialIcon} />{" "}
-							<FaInstagram className={styles.socialIcon} />{" "}
-							<FaGlobeAmericas className={styles.socialIcon} />{" "}
-						</div>
-						<p className={styles.achievements}>Achievements</p>
-						<div>
-							<p>
-								<FaRegCheckCircle /> 106.1% Growth in Tweet 
-								Impressions
-							</p>
-							<p>
-							<FaRegCheckCircle /> 31.2% Growth in Profile
-								Visits
-							</p>
-							<p>
-							<FaRegCheckCircle /> 47.3% Growth in
-								Mentions
-							</p>
-							<p>
-							<FaRegCheckCircle /> 25.6% Growth in
-								Followers
-							</p>
-						</div>
-					</div>
-
-					<div className={styles.caseStudiesCardItem}>
-						<div className={styles.caseStudiesCardItemTwoTop}>
-							<BsPuzzle />
-							<button>Minting Soon</button>
-						</div>
-						<h4>Puzzle Prize<br/> NFT</h4>
-						<div className={styles.socialIcons}>
-							<FaTwitter className={styles.socialIcon} />{" "}
-							<FaInstagram className={styles.socialIcon} />{" "}
-							<FaGlobeAmericas className={styles.socialIcon} />{" "}
-						</div>
-						<p className={styles.achievements}>Achievements</p>
-						<div>
-							<p>
-								<FaRegCheckCircle /> 106.1% Growth in Tweet
-								Impressions
-							</p>
-							<p>
-								<FaRegCheckCircle /> 31.2% Growth in Profile
-								Visits
-							</p>
-							<p>
-								<FaRegCheckCircle /> 47.3% Growth in
-								Mentions
-							</p>
-							<p>
-								<FaRegCheckCircle /> 25.6% Growth in
-								Followers
-							</p>
-						</div>
-					</div>
-
-					<div className={styles.caseStudiesCardItem}>
-						<div className={styles.caseStudiesCardItemThreeTop}>
-							<GoRocket />
-							<button>Minting Soon</button>
-						</div>
-						<h4>
-							Space Dudes <br />
-							NFT
-						</h4>
-						<div className={styles.socialIcons}>
-							<FaTwitter className={styles.socialIcon} />{" "}
-							<FaInstagram className={styles.socialIcon} />{" "}
-							<FaGlobeAmericas className={styles.socialIcon} />{" "}
-						</div>
-						<p className={styles.achievements}>Achievements</p>
-						<div>
-							<p>
-								<FaRegCheckCircle /> 25% Growth in Tweet
-								Impressions
-							</p>
-							<p>
-								<FaRegCheckCircle /> 16.8% Growth in Profile
-								Visits
-							</p>
-							<p>
-								<FaRegCheckCircle /> 11.8% Growth in
-								Mentions
-							</p>
-							<p>
-								<FaRegCheckCircle /> 21% Growth in Followers
-							</p>
-						</div>
-					</div>
-				</div>
+				
 
 				{/* PRE FOOTER */}
 				<PreFooter />
