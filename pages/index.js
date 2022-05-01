@@ -346,19 +346,21 @@ export default function Home() {
 					{/* <div className={styles.heroContentContainer}> */}
 					<div className={headerStyles.heroContent}>
 						{/* <h1>We Enhance Social Media Management and Marketing</h1> */}
-						<div>
-							<h1>
-								We
-								<Typewriter 
-									options={{
-										strings: ["Enhance", "Optimize", "Manage"],
-										autoStart: true,
-										loop: true,
-									}}
-								/>
-								Social Media Management and Marketing
-							</h1>
-						</div>
+						<h1>
+							<span>We&nbsp;</span>
+							<Typewriter
+								options={{
+									strings: ["Enhance", "Optimize", "Manage"],
+									autoStart: true,
+									loop: true,
+								}}
+							/>
+							<span>Social&nbsp;</span>
+							<span>Media&nbsp;</span>
+							<span>Management&nbsp;</span>
+							<span>and&nbsp;</span>
+							<span>Marketing&nbsp;</span>
+						</h1>
 						<p>
 							Welcome to Minty Solutions, the all-in-one digital marketing
 							service personalised to your project
@@ -426,7 +428,7 @@ export default function Home() {
 						<div className={styles.metricsCard}>
 							<h2>MINTING REVENUE </h2>
 							<p>
-								<CountUp start={0} end={1000000}  separator="," redraw={true}>
+								<CountUp start={0} end={1000000} separator="," redraw={true}>
 									{({ countUpRef, start }) => (
 										<VisibilitySensor onChange={start} delayedCall>
 											<span ref={countUpRef} />
